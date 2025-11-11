@@ -12,11 +12,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7999154-08b5-423a-8441-dbffbf5d435a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SnoWar/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SnoWar/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/DefaultEditor.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEditor.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Scene/Game.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Scene/Game.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SnoWar.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/SnoWar.uproject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprint/Characters/C_Snouw.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprint/Characters/C_Snouw.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprint/GM_Game.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprint/GM_Game.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Input/IMC_Snouw.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Input/IMC_Snouw.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Input/PC_Snouw.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Input/PC_Snouw.uasset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +152,7 @@
       <updated>1762788390049</updated>
       <workItem from="1762788391782" duration="1000" />
       <workItem from="1762788858279" duration="86000" />
-      <workItem from="1762789048299" duration="685000" />
+      <workItem from="1762789048299" duration="1280000" />
     </task>
     <servers />
   </component>
