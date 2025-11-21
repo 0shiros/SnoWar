@@ -3,7 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "Components/SphereComponent.h"
+#include "Enemy.h"
 #include "GameFramework/Actor.h"
 #include "Projectile.generated.h"
 
@@ -25,10 +25,12 @@ protected:
 	int damage = 10;
 	UPROPERTY(BlueprintReadOnly, Category = "Mesh")
 	UStaticMeshComponent* mesh;
+	UPROPERTY(BlueprintReadWrite, Category = "Enemies")
+	AEnemy* targetEnemy;
 
 public:	
 
 	void SetSpeed(float newSpeed);
-	void SetDamage(int newDamage) ;
-	void ApplyInitialVelocity();
+	void SetDamage(int newDamage);
+	void SetTargetEnemy(AEnemy* enemy);
 };

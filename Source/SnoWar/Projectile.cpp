@@ -10,16 +10,6 @@ AProjectile::AProjectile()
 void AProjectile::BeginPlay()
 {
 	Super::BeginPlay();
-
-	mesh = FindComponentByClass<UStaticMeshComponent>();
-	
-	if (mesh)
-	{
-		mesh->SetSimulatePhysics(true);	
-		mesh->SetEnableGravity(false);
-		ApplyInitialVelocity();
-	}
-
 }
 
 void AProjectile::SetSpeed(float newSpeed)
@@ -32,9 +22,8 @@ void AProjectile::SetDamage(int newDamage)
 	damage = newDamage;
 }
 
-void AProjectile::ApplyInitialVelocity()
+void AProjectile::SetTargetEnemy(AEnemy* enemy)
 {
-	FVector linearVelocity = GetActorForwardVector() * speed;
-	mesh ->SetPhysicsLinearVelocity(linearVelocity);
+	targetEnemy = enemy;
 }
 

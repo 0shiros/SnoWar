@@ -24,12 +24,15 @@ void ATower::BeginPlay()
 
 bool ATower::CanFire(float deltaTime)
 {
-	timeElapsed += deltaTime;
-	
-	if (timeElapsed >= timeBetweenShots)	
+	if (IsValid(EnemyTarget))
 	{
-		timeElapsed -= timeBetweenShots;
-		return true;
+		timeElapsed += deltaTime;
+	
+		if (timeElapsed >= timeBetweenShots)	
+		{
+			timeElapsed -= timeBetweenShots;
+			return true;
+		}
 	}
 	return false;
 }
@@ -39,12 +42,13 @@ void ATower::CreateProjectile()
 	if (UWorld* World = GetWorld())
 	{
 		FVector SpawnLocation = projectileSpawnPosition;
-		FRotator SpawnRotation = GetActorRotation();
+		FRotator SpawnRotation = projectileSpawnRotation;
 		AProjectile* projectile = World->SpawnActor<AProjectile>(projectileClass, SpawnLocation, SpawnRotation);
 		if (projectile)
 		{
 			projectile->SetDamage(projectileDamage);
 			projectile->SetSpeed(projectileSpeed);
+			projectile->SetTargetEnemy(EnemyTarget);
 		}
 	}
 }

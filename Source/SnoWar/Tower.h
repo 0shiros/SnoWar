@@ -23,6 +23,8 @@ public:
 	int priceSell = 25;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Enemies")
 	TArray<AEnemy*> EnemiesInRange;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Enemies")
+	AEnemy* EnemyTarget;
 	
 protected:
 	// Called when the game starts or when spawned
@@ -31,6 +33,8 @@ protected:
 	TSubclassOf<AProjectile> projectileClass;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Projectile")
 	FVector projectileSpawnPosition;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Projectile")
+	FRotator projectileSpawnRotation;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Attack")
 	float fireRate = 30.0f;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Attack")
@@ -43,6 +47,8 @@ protected:
 	float timeBetweenShots = 0.0f;	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Attack")
 	float timeElapsed = 0.0f;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Attack")
+	float rotationSpeed = 5.0f;
 
 	UFUNCTION(BlueprintCallable, Category = "Turret")
 	bool CanFire(float deltaTime);

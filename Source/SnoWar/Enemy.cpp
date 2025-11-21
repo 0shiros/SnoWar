@@ -18,11 +18,4 @@ void AEnemy::BeginPlay()
 	
 }
 
-void AEnemy::TakeDamage(int damageAmount)
-{
-}
-
-void AEnemy::Die()
-{
-}
 
