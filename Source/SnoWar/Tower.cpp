@@ -53,18 +53,6 @@ void ATower::CreateProjectile()
 	}
 }
 
-void ATower::Buy()
-{
-}
-
-void ATower::Sell()
-{
-}
-
-void ATower::DetectEnemiesInRange()
-{
-}
-
 // Called every frame
 void ATower::Tick(float DeltaTime)
 {

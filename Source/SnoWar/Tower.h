@@ -18,8 +18,6 @@ public:
 	// Sets default values for this pawn's properties
 	ATower();
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Price")
-	int priceBuy = 50;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Price")
 	int priceSell = 25;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Enemies")
 	TArray<AEnemy*> EnemiesInRange;
@@ -54,12 +52,6 @@ protected:
 	bool CanFire(float deltaTime);
 	UFUNCTION(BlueprintCallable, Category = "Turret")
 	void CreateProjectile();
-	UFUNCTION(BlueprintCallable, Category = "Turret")
-	void Buy();
-	UFUNCTION(BlueprintCallable, Category = "Turret")
-	void Sell();
-	UFUNCTION(BlueprintCallable, Category = "Turret")
-	void DetectEnemiesInRange();
 
 public:	
 	// Called every frame
