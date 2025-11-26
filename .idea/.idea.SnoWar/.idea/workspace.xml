@@ -11,16 +11,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e00cd76-1a18-420d-9229-09b03c1802ba" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SnoWar/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SnoWar/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprint/GameManager/GMANAGER_Game.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprint/GameManager/GMANAGER_Game.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprint/Towers/P_TowerMitraneige.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprint/Towers/P_TowerMitraneige.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Input/PC_Snouw.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Input/PC_Snouw.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Scene/Game/8/MW/0CTQCCJCF12N15O2NEWK6I.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Scene/Game/8/MW/0CTQCCJCF12N15O2NEWK6I.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/SnoWar/Tower.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/SnoWar/Tower.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/SnoWar/Tower.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/SnoWar/Tower.h" afterDir="false" />
-    </list>
+    <list default="true" id="0e00cd76-1a18-420d-9229-09b03c1802ba" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -168,7 +159,7 @@
       <workItem from="1763493028923" duration="463000" />
       <workItem from="1763714133318" duration="7835000" />
       <workItem from="1763728766522" duration="2669000" />
-      <workItem from="1764149995707" duration="42000" />
+      <workItem from="1764149995707" duration="105000" />
     </task>
     <servers />
   </component>
