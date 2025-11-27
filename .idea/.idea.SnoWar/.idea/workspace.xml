@@ -13,17 +13,49 @@
   <component name="ChangeListManager">
     <list default="true" id="0e00cd76-1a18-420d-9229-09b03c1802ba" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SnoWar/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SnoWar/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/DefaultGame.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultGame.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprint/EnemySpawner/A_EnemySpawner.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprint/EnemySpawner/A_EnemySpawner.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Blueprint/GameMode/GM_Game.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprint/GameMode/GM_Game.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprint/Igloo/A_Igloo.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprint/Igloo/A_Igloo.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprint/Managers/A_FlockingManager.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprint/Managers/A_FlockingManager.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Blueprint/Managers/GMANAGER_Game.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprint/Managers/GMANAGER_Game.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprint/Managers/UI_Manager.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprint/Managers/UI_Manager.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprint/Sign/A_Sign.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprint/Sign/A_Sign.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Blueprint/SnowDrift/A_SnowDrift.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprint/SnowDrift/A_SnowDrift.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprint/Structs/S_TowerData.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprint/Structs/S_TowerData.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprint/Towers/P_Blizzarde.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprint/Towers/P_Blizzarde.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprint/Towers/P_Frigoboule.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprint/Towers/P_Frigoboule.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprint/Towers/P_Mitraineige.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprint/Towers/P_Mitraineige.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Blueprint/Towers/P_Tower.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprint/Towers/P_Tower.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Scene/Game.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Scene/Game.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/UI/UW_SelectTower.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/UW_SelectTower.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Scene/Game/2/10/HL0O22IYR6AL3E5KZNBXGL.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Input/PC_Snouw.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Input/PC_Snouw.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/UI/UW_EndGame.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/UW_EndGame.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/UI/UW_Settings.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/UW_Settings.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Scene/Game/0/2R/NT98JKPBOZZTV7IB0S277R.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Scene/Game/1/B3/A28ST8ST26JEF2FO1K9L4S.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Scene/Game/1/WA/NB56BOAS38AKUMXCRHYV1Q.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Scene/Game/1/WU/49VJFSEA31Z64RT9MMFN5E.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Scene/Game/3/MB/4T2XCHY9VORS6PFYYTNL4R.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Scene/Game/4/7S/G8W96GCNH1LPSOOHOCW83P.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Scene/Game/5/KZ/0Z21QQR8MXKHW8JBE6P2K5.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Scene/Game/6/2J/Z1R2JOVPI2LL03HY8LX0PJ.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Scene/Game/6/GR/8J10R5A0RC3JSMETD9N1QL.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Scene/Game/6/GR/8J10R5A0RC3JSMETD9N1QL.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Scene/Game/7/0G/RK73MO5BH11NEOROT2EQSB.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Scene/Game/7/EK/93OQBOSAOU70QCEVPL81ST.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Scene/Game/7/EK/93OQBOSAOU70QCEVPL81ST.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Scene/Game/8/99/PW8ESULVUWSH7264IGRX4A.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Scene/Game/8/MW/0CTQCCJCF12N15O2NEWK6I.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Scene/Game/8/MW/0CTQCCJCF12N15O2NEWK6I.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Scene/Game/9/EO/1SLAT40QXKX4FCYKXRFGYI.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Scene/Game/9/KK/QDB27QC1FCJ4MJRMM5E7VS.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Scene/Game/9/VF/2XRRUL8AK2FRNSC5KRK17Z.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Scene/Game/A/85/WV228YNSI79HQPKZG12MX8.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Scene/Game/A/S6/5KU841XJ2VH73TCIFNCAAN.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Scene/Game/A/US/2KME532K37ZORPCK8ZAR5K.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Scene/Game/A/V3/ESUR8MRSLBIWXGH46WTV62.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Scene/Game/A/V3/ESUR8MRSLBIWXGH46WTV62.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Scene/Game/A/VV/0XMD7W073B4L010DEBXEW4.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Scene/Game/B/OZ/P7IIZRAFGB2YGI48C5QBLN.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Scene/Game/C/CO/IUV4DNHBFFU4WMSWB0OI96.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Scene/Game/C/ZE/G5MIUHQ78YZ54AQLZX1H7K.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Scene/Game/D/4P/K4M3YAQ96RBMDQJBCJ98JM.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Scene/Game/D/E7/9CGIS4AR5OPDULK96DU302.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Scene/Game/D/YG/BKTL1BR8CW94FC8AJMHEKQ.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Scene/Game/E/70/DYZKSTSAGGUKMRLZLUMNJH.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalObjects__/Scene/Game/4/NZ/EGFEI7QVEIVAAHPCPOLQII.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalObjects__/Scene/Game/4/NZ/EGFEI7QVEIVAAHPCPOLQII.uasset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,6 +206,7 @@
       <workItem from="1763728766522" duration="2669000" />
       <workItem from="1764149995707" duration="105000" />
       <workItem from="1764238149983" duration="382000" />
+      <workItem from="1764252001737" duration="1288000" />
     </task>
     <servers />
   </component>
