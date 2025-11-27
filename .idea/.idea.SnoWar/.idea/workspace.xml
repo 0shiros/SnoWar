@@ -11,7 +11,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e00cd76-1a18-420d-9229-09b03c1802ba" name="Changes" comment="" />
+    <list default="true" id="0e00cd76-1a18-420d-9229-09b03c1802ba" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SnoWar/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SnoWar/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DefaultGame.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultGame.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprint/GameMode/GM_Game.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprint/GameMode/GM_Game.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprint/Managers/GMANAGER_Game.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprint/Managers/GMANAGER_Game.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprint/Managers/UI_Manager.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprint/Managers/UI_Manager.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprint/SnowDrift/A_SnowDrift.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprint/SnowDrift/A_SnowDrift.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprint/Structs/S_TowerData.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprint/Structs/S_TowerData.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprint/Towers/P_Tower.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprint/Towers/P_Tower.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Scene/Game.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Scene/Game.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/UI/UW_SelectTower.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/UW_SelectTower.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Scene/Game/2/10/HL0O22IYR6AL3E5KZNBXGL.uasset" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -160,6 +173,7 @@
       <workItem from="1763714133318" duration="7835000" />
       <workItem from="1763728766522" duration="2669000" />
       <workItem from="1764149995707" duration="105000" />
+      <workItem from="1764238149983" duration="382000" />
     </task>
     <servers />
   </component>
